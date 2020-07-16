@@ -4,18 +4,31 @@
     
   }
   body {
-    background: url;
+    background: url("2.jpg");
     background-position: absolute;
     background-size: contain;
-    color: #1C2D61;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
 
   }
-#menú li{
-    padding: 0%;
-    display: inline;
-    }
+  #menú li {
+    display: inline-flex;
+}
+#menú li a:hover{
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+    color: lime;
+    position: none;
+    word-spacing: 20pt;
+
+}
+.item a{
+    text-decoration: none;
+    color: rgb(139, 160, 187);
+    position: center;
+  }
+
 #imagen{ 
    border: 2px solid #121212;
    object-position: center;
