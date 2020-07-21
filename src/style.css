@@ -1,27 +1,25 @@
 *{
     box-sizing: border-box;
-    margin: 10;
-    
-  }
+    margin: 20;
+    padding: 0px;
+    }
   body {
     background: url("2.jpg");
     background-position: absolute;
     background-size: contain;
-    font-size: 18px;
+    padding: 20;
+    font-size: 28px;
     font-family: 'Lato', sans-serif;
-
   }
-  #menú li {
+  .boxmenú li {
     display: inline-flex;
+    justify-content: space-between
 }
-#menú li a:hover{
-    font-family: Arial;
-    font-size: 20px;
+.boxmenú li a:hover{
+    font-size: 40px;
     text-decoration: none;
     color: lime;
-    position: none;
-    word-spacing: 20pt;
-
+    flex-direction: row;
 }
 .item a{
     text-decoration: none;
@@ -32,8 +30,32 @@
 #imagen{ 
    border: 2px solid #121212;
    object-position: center;
-    width: 100%;
-    height: 280px;
-    object-fit: fill;
-  }
- 
+   width: 100%;
+   height: 280px;
+   object-fit: fill;
+  
+}
+#container{
+  display: grid;
+  height: 100px;
+  grid-template-rows: 40px 1fr; 
+}
+#btnmás{
+  display: block;
+  align-self: center;
+  color: orange;
+  border: 10px;
+  text-decoration: underline; 
+  margin: auto;
+  font-size: 20px;
+}
+footer{
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  border: solid chartreuse;
+  border-width: 2px;
+  padding: 10px;
+  font-size: 15 px;
+  text-align: center;
+  color: rgb(139, 160, 187) }
