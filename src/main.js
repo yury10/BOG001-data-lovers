@@ -1,6 +1,6 @@
 import data from './data/rickandmorty/rickandmorty.js';
 import Especie from "./data.js";
-import ordenarPersonajes  from "./data.js";
+import {ordenarPersonajes} from "./data.js";
 
 const searcher = document.getElementById("buscar especie");
 searcher.addEventListener("click", PersonajesEspecie);
@@ -33,7 +33,8 @@ function returnInit() {
 
 //Imprimir datos en pantalla
 const datosGeneral =  data.results.slice(0,30);
-function mostrarPersonajes () {
+
+/* function mostrarPersonajes () {
     datosGeneral.forEach(function(personaje){
     let contenedorPersonaje = document.getElementById("container");
  contenedorPersonaje.innerHTML +=
@@ -51,7 +52,7 @@ function mostrarPersonajes () {
 }
 mostrarPersonajes();
 
-/*const verMas = document.getElementById("btnmás");
+const verMas = document.getElementById("btnmás");
 verMas.addEventListener("click", more):*/
 
 function PersonajesEspecie () {

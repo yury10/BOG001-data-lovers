@@ -1,0 +1,93 @@
+[33mcommit 727e996d9212ceb0314f04c11cf34f30e260ec09[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: fb6f06b 7166cd6
+Author: Juliana Jimenez <nani.jimenez@hotmail.com>
+Date:   Sat Aug 1 23:24:45 2020 -0500
+
+    fusion
+
+[33mcommit fb6f06b6eeaaa489a042c0bbd1ad3f38c5470701[m
+Author: Juliana Jimenez <nani.jimenez@hotmail.com>
+Date:   Sat Aug 1 22:55:15 2020 -0500
+
+    filter
+
+[33mcommit 7166cd6e6665079d61de2c4e0e748462772774bb[m
+Merge: c80160c ff23c9d
+Author: yury10 <geniocrea@gmail.com>
+Date:   Sat Aug 1 19:19:10 2020 -0500
+
+    cambios orden A-Z
+
+[33mcommit c80160cf9d56704a35bb0a70d35263f59dd7d8b3[m
+Author: yury10 <geniocrea@gmail.com>
+Date:   Sat Aug 1 19:15:10 2020 -0500
+
+    cambios orden a-z
+
+[33mcommit ff23c9d9cfa1e6004298055971b5852ed47ca7e4[m
+Author: Juliana Jimenez <nani.jimenez@hotmail.com>
+Date:   Fri Jul 24 08:07:00 2020 -0500
+
+    datospersonajes
+
+[33mcommit 1d75cc4789e491d9e7d8d33f5386f5de83d3f341[m
+Merge: b9db4ec 59f237c
+Author: yury10 <geniocrea@gmail.com>
+Date:   Thu Jul 23 18:59:43 2020 -0500
+
+    Merge branch 'master' of https://github.com/yury10/BOG001-data-lovers
+
+[33mcommit 59f237c87ad3952eb31c3414bf4b4e3b1a8aff37[m
+Author: Juliana Jimenez <nani.jimenez@hotmail.com>
+Date:   Tue Jul 21 08:26:37 2020 -0500
+
+    cjs
+
+[33mcommit b9db4ec0ac00c3d11734815f0b274ae3148ed322[m
+Merge: 3d8b54a ef35881
+Author: yury10 <geniocrea@gmail.com>
+Date:   Thu Jul 16 12:06:05 2020 -0500
+
+    Merge branch 'master' of https://github.com/yury10/BOG001-data-lovers
+
+[33mcommit 3d8b54a27614f26b1766f6f056d5762cfcf19d51[m
+Author: yury10 <geniocrea@gmail.com>
+Date:   Thu Jul 16 12:05:11 2020 -0500
+
+    eliminacion de archivos
+
+[33mcommit ef35881a42fd646ac2b430c7fbfb5ad77ed87506[m
+Author: Juliana Jimenez <nani.jimenez@hotmail.com>
+Date:   Thu Jul 16 08:28:45 2020 -0500
+
+    HTML Y CSS
+
+[33mcommit 2ca97365051c19157b24b0c3b65bbc71802bdcb0[m
+Author: Juliana Jimenez <nani.jimenez@hotmail.com>
+Date:   Wed Jul 15 09:45:53 2020 -0500
+
+    cambios en html y css
+
+[33mcommit 2a90dac3df883c259357b77b1e19b2957cca8b70[m
+Author: Lupe CaMay <lupemaydana@gmail.com>
+Date:   Wed Jun 17 10:21:31 2020 -0400
+
+    Update README.md
+
+[33mcommit c3669bf25838591c50c339b87469506c2a983294[m
+Author: Lupe CaMay <lupemaydana@gmail.com>
+Date:   Wed Jun 17 10:17:40 2020 -0400
+
+    Update links to LMS content
+
+[33mcommit 56b5c3525fd7eaf40a0effe4f6675c6f62aaf533[m
+Author: Lupe CaMay <lupemaydana@gmail.com>
+Date:   Wed Jun 17 09:23:59 2020 -0400
+
+    Update README.md
+
+[33mcommit d11b4a64f5c0b0d14172ffe97b00c5be044cc93c[m
+Author: Daniel <hola@dapino.co>
+Date:   Thu Jun 11 13:50:30 2020 -0500
+
+    chore(init): Adds project files from curriculum
