@@ -1,15 +1,13 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&family=Fjalla+One&display=swap');
-=======
-<<<<<<< HEAD
+
+
 * {
   box-sizing: border-box;
   margin: 20;
   padding: 0px;
 }
-=======
+
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Rubik:wght@700&display=swap');
->>>>>>> 7166cd6e6665079d61de2c4e0e748462772774bb
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -41,7 +39,7 @@
     color: rgb(139, 160, 187);
     position: center;
   }
-<<<<<<< HEAD
+
   section{
     padding: 20px;
     align-items: center;
@@ -60,8 +58,7 @@
 }
 
 #btnmás{
-=======
->>>>>>> ff23c9d9cfa1e6004298055971b5852ed47ca7e4
+
 
 body {
   background: url("2.jpg");
@@ -97,23 +94,23 @@ body {
 
 .contenedor {
   display: grid;
-<<<<<<< HEAD
+
   grid-template-columns: repeat(4, 1fr);
   /* grid-template-columns: repeat (auto-fit, minmax (4, 1fr));*/
   grid-template-rows: repeat (3, 100px);
   grid-gap: 20px;
   color: white;
-=======
+
   height: 100px;
   grid-template-rows: 40px 1fr;
   grid-template-columns:1fr 1fr;
   grid-gap: 15px;
   justify-content: space-around;
->>>>>>> ff23c9d9cfa1e6004298055971b5852ed47ca7e4
+
 }
 
 #btnmás {
->>>>>>> 7166cd6e6665079d61de2c4e0e748462772774bb
+
   display: block;
   color: orange;
   border: 10px;
@@ -172,8 +169,6 @@ footer {
     padding: 10px 0px 0px 15px;
   }
 }
-=======
+
   color: rgb(139, 160, 187) }
 
- 
->>>>>>> ff23c9d9cfa1e6004298055971b5852ed47ca7e4
