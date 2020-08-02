@@ -1,5 +1,18 @@
- import data from './data/rickandmorty/rickandmorty.js';
-
+export const ordenarPersonajes = (data, option) => {
+  const orderAZ = data.sort(function (prev, next) {
+    if (prev.name > next.name) {
+      return 1;
+    }
+    if (prev.name < next.name) {
+      return -1;
+    }
+    if (option == "A-Z") {
+      return orderAZ;
+    }
+    if (option == "Z-A") {
+      return orderAZ.reverse();
+    }
+  }
 
  const Especie = {
    filtrandoByEspecie :(word) => {
@@ -7,14 +20,4 @@
      return Dato
  }
 }
-export default Especie;
-
-
-// estas funciones son de ejemplo
-
-//export const example = () => {
-  //return 'example';
-//};
-
-//export const anotherExample = () => {
-  //return 'OMG';
+export default Especie
