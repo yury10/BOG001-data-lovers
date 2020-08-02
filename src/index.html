@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Rick&Morty</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" rel="stylesheet" />
   </head>
   <body>
     <header>
-      <img id="imagen" src="1.jpg">
-      <ul class="boxmenú">
-        <li class="item"><a href="inicio"> Inicio </a></li>
-     <li class="item"> <a href="temporada"> Temporadas </a></li>
-     <li class="item"> <a href="epi">Episodios </a></li>
-    </ul>
-  </header>
-  <!-- Personajes-->
-  
-</div>
-<div id="container">
-</div> 
-<section>
-  <button id="btnmás"><strong>Ver más</strong></button>
-</section>
-    
-    <div id="root"> 
-      <footer><strong>Yury & Juli :) </strong> </footer>
+      <img class="imagen" src="1.jpg" />
+    </header>
+
+    <div id="vistaPrincipal">
+      <ul class="boxmenu">
+        <li><a id="vista1" class="item" href="#cntainer"> Inicio </a></li>
+        <li><a id="vista2" class="item" href="#Episodios"> Episodios </a></li>
+        <li><a id="vista3" class="item" href="#Locaciones"> Locaciones</a></li>
+      </ul>
+
+      <ul class="selec">
+        <li>
+          <a href="#">seleccion</a>
+
+          <ul class="menuOrdenar">
+            <li><a href="#">A-Z</a></li>
+            <li><a href="#">Z-A</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Personajes-->
+      <section class="contenedor" id="container"></section>
+    </div>
+    <!--Pagina Buscar por Capitulo-->
+    <div id="Episodios" class="paginaCap">
+      <label>Filtrar por capítulo</label>
+      <select id="buscar per/cap" class="select">
+        <option selected value=""> <h2>Capitulo</h2></option>
+      </select>
+    </div>
+
+    <button id="btnmás"><strong>Ver más</strong></button>
+
+    <footer><strong>Yury & Juli :) </strong></footer>
+
     <script src="main.js" type="module"></script>
   </body>
 </html>
