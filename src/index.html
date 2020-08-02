@@ -4,28 +4,51 @@
     <meta charset="utf-8">
     <meta name="viewport" content= "width=device-width, initial-scale=1" >
     <title>Rick&Morty</title>
-    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href=style.css rel="stylesheet">
   </head>
   <body>
     <header> 
-    <img id= "imagen" src= "1.jpg"> 
+      <div class = "menu">
+        <div class = "icono-menú" id="menu-three">
+          <i class= "fas fa-bars"> </i>
+        </div>
+        <img src=""
 
-    <ul class="boxmenú">
-     <li class="item"> <a href="inicio"> Inicio </a> </li>
-     <li class="item"> <a href="temporada"> Temporadas </a> </li>
-     <li class="item"> <a href="epi">Episodios </a> </li>
+      
+     img id= "imagen" src= "1.jpg"> 
+  </header>
+
+  <div  id="vistaPrincipal">
+	
+     <ul class="boxmenú">
+     <li> <a id="vista1"class="item" href="#cntainer"> Inicio </a> </li>
+     <li> <a id="vista2"class="item" href="#Especie"> Especie </a> </li>
+     <li> <a id="vista3" class="item" href="#Locaciones"> Locaciones</a> </li>
     </ul>
 
-  </header>
   <!-- Personajes-->
-</div>
 <section id="container">
+
 </section> 
-<section>
+</div>
+ <!--Pagina Buscar por locacion-->
+ <div id="Especie" class="paginaCap">
+  <label>Filtrar por Locaciones</label>
+  
+
+  <select name="select" id="buscar especie" class="select">
+    <option value="Human">Humanos</option>
+    <option value="unknown">Desconocido</option>
+
+    <option selected value=""> <h2>Especie</h2></option> 
+
+  </select>  
+
+  </section>        
+</div>
   <button id="btnmás"><strong>Ver más</strong> </button>
 </section>
-
-    
+  
       <footer><strong>Yury & Juli :) </strong> </footer>
     <script src="main.js" type="module"></script>
   </body>

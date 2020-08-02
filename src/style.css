@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&family=Fjalla+One&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0px;
     }
   body {
-    background: url("2.jpg");
+    background: url(".jpg");
     background-position: absolute;
     background-size: contain;
     padding: 20;
     font-size: 28px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Baloo Da 2', cursive;
   }
   .boxmenú li {
     display: inline-flex;
@@ -22,12 +22,22 @@
     color: lime;
     flex-direction: row;
 }
+#container { 
+ 
+}
 .item a{
     text-decoration: none;
     color: rgb(139, 160, 187);
     position: center;
   }
-
+  section{
+    padding: 20px;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    display: inline-block;
+    position: relative;
+  }
 #imagen{ 
    border: 2px solid #121212;
    object-position: center;
@@ -36,14 +46,7 @@
    object-fit: fill;
   
 }
-#container{
-  display: grid;
-  height: 100px;
-  grid-template-rows: 40px 1fr;
-  grid-template-columns:1fr 1fr;
-  grid-gap: 15px;
-  justify-content: space-around;
-}
+
 #btnmás{
   display: block;
   color: orange;
