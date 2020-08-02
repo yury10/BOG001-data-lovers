@@ -1,8 +1,40 @@
+<<<<<<< HEAD
 * {
   box-sizing: border-box;
   margin: 20;
   padding: 0px;
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Rubik:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    }
+  body {
+    background: url("2.jpg");
+    background-position: absolute;
+    background-size: contain;
+    padding: 20;
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+  }
+  .boxmenú li {
+    display: inline-flex;
+    justify-content: space-between
+}
+.boxmenú li a:hover{
+    font-size: 40px;
+    text-decoration: none;
+    color: lime;
+    flex-direction: row;
+}
+.item a{
+    text-decoration: none;
+    color: rgb(139, 160, 187);
+    position: center;
+  }
+>>>>>>> ff23c9d9cfa1e6004298055971b5852ed47ca7e4
 
 body {
   background: url("2.jpg");
@@ -38,16 +70,23 @@ body {
 
 .contenedor {
   display: grid;
+<<<<<<< HEAD
   grid-template-columns: repeat(4, 1fr);
   /* grid-template-columns: repeat (auto-fit, minmax (4, 1fr));*/
   grid-template-rows: repeat (3, 100px);
   grid-gap: 20px;
   color: white;
+=======
+  height: 100px;
+  grid-template-rows: 40px 1fr;
+  grid-template-columns:1fr 1fr;
+  grid-gap: 15px;
+  justify-content: space-around;
+>>>>>>> ff23c9d9cfa1e6004298055971b5852ed47ca7e4
 }
 
 #btnmás {
   display: block;
-  align-self: center;
   color: orange;
   border: 10px;
   text-decoration: underline;
@@ -63,6 +102,7 @@ footer {
   padding: 10px;
   font-size: 15 px;
   text-align: center;
+<<<<<<< HEAD
   color: rgb(139, 160, 187);
 }
 
@@ -104,3 +144,8 @@ footer {
     padding: 10px 0px 0px 15px;
   }
 }
+=======
+  color: rgb(139, 160, 187) }
+
+ 
+>>>>>>> ff23c9d9cfa1e6004298055971b5852ed47ca7e4
