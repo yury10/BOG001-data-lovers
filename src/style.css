@@ -91,7 +91,7 @@ select option {
    height: 270px;
    object-fit: fill; 
 }
-.contenedor {
+.aa{
   display: grid;
 
   grid-template-columns: repeat(4, 1fr);
@@ -130,7 +130,7 @@ footer {
 }
 
 @media (max-width: 360px) {
-  .contenedor {
+  .content-personajes{
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
     color: white;
@@ -149,7 +149,7 @@ footer {
 }
 
 @media (max-width: 720px) {
-  .contenedor {
+  .content-personajes {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     color: white;
