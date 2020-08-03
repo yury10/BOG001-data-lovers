@@ -1,66 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Rick&Morty</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Rick and Morty</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
 
-    <link rel="stylesheet" href=style.css rel="stylesheet">
-  </head>
 <body>
-
-  <header> 
-      <div class = "menu">
-        <div class = "icono-menú" id="menu-three">
-          <i class= "fas fa-bars"> </i>
-        </div>
-        <img id= "imagen" src= "1.jpg"> 
+  <header>
+    <img src="1.jpg" alt="banner">
   </header>
-  <div id="vistaPrincipal">
-      <ul class="boxmenu">
-        <li><a id="vista1" class="item" href="#cntainer"> Inicio </a></li>
-        <li><a id="vista2" class="item" href="#Especies"> Especies </a></li>
-        <li><a id="vista3" class="item" href="#Locaciones"> Locaciones</a></li>
-      </ul>
 
-      <ul class="selec">
-        <li>
-          <a href="#">seleccion</a>
+   <div id="container">
+      <h1>Descubre los personajes :)</h1>
+      <p>En esta pagina Podras explorar y encontrar datos curiosos sobre tu serie favorita</p>
 
-      <ul class="menuOrdenar">
-            <li><a href="#">A-Z</a></li>
-            <li><a href="#">Z-A</a></li>
-          </ul>
-        </li>
-      </ul>
 
-      <!-- Personajes-->
-    <section class="contenedor" id="container"></section>
-  </div>
+  <section class="botones">
+      <div class="search-input margin-b-1">
+          <input type="search" class="site-search color" id="searchIn" name="q" placeholder="Search">
+          <button class="button search" id="searchButton">
+              <i class="fas fa-search"></i>
+          </button>
+      </div>
 
-    <link rel="stylesheet" href="style.css" rel="stylesheet" />
-  </head>
-  </div>
- <!--Pagina Buscar por locacion-->
- <div id="Especie" class="paginaCap">
-  <label>Filtrar por Locaciones</label>
-  
 
-  <select name="select" id="buscar especie" class="select">
-    <option value="Human">Humanos</option>
-    <option value="unknown">Desconocido</option>
-
-    <option selected value=""> <h2>Especie</h2></option> 
-
-  </select>  
-
-  </section>        
+      <select class=  id="filter-input-order">
+          <option value="" hidden default disabled selected class="order">Order</option>
+          <option value="a-z" class="order">Order A-Z</option>
+          <option value="z-a" class="order">Order Z-A</option>
+      </select>
+      <select class="filter-input color margin-b-1 order" id="filter-input-species">
+          <option value="" selected default hidden disabled>Species</option>
+          <option value="">All</option>
+          <option value="Human">Humans</option>
+          <option value="Vampire">Vampire</option>
+          <option value="Disease">Disease</option>
+          <option value="unknown">Unknown</option>
+          <option value="Animal">Animal</option>
+          <option value="Robot">Robot</option>
+          <option value="Humanoid">Humanoid</option>
+          <option value="Alien">Alien</option>
+          <option value="Cronenberg">Cronenberg</option>
+          <option value="Poopybutthole">Poopybutthole</option>
+      </select>
+  </section>
 </div>
-  <button id="btnmás"><strong>Ver más</strong> </button>
-</section>
-  
-      <footer><strong>Yury & Juli :) </strong> </footer>
+    <footer class="footer">
+      <div id="boxblack">
+          <p class="text-f margin-t-1">Made with by Juliana Jimenez and yury Carreño </p>
+        </div>
+  </footer>
+  <script src="main.js" type="module"></script>
 
-    <script src="main.js" type="module"></script>
 </body>
+
 </html>

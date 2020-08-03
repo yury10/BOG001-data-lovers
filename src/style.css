@@ -1,47 +1,82 @@
-<<<<<<< HEAD
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&family=Fjalla+One&display=swap');
-=======
-<<<<<<< HEAD
-* {
-  box-sizing: border-box;
-  margin: 20;
-  padding: 0px;
-}
-=======
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Rubik:wght@700&display=swap');
->>>>>>> 7166cd6e6665079d61de2c4e0e748462772774bb
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0px;
-    }
+html {
+  font-size: 25px;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Baloo Thambi 2", cursive;
+  box-sizing: border-box;
+}
   body {
-    background: url(".jpg");
+    background: url("2.jpg");
     background-position: absolute;
     background-size: contain;
     padding: 20;
-    font-size: 28px;
-    font-family: 'Baloo Da 2', cursive;
-  }
-  .boxmenú li {
-    display: inline-flex;
-    justify-content: space-between
 }
-.boxmenú li a:hover{
-    font-size: 40px;
-    text-decoration: none;
-    color: lime;
-    flex-direction: row;
+h1{
+  font-size: 30px;
+  color: violet;
+  background-position: absolute;
+  padding: 20px;
+ }
+ .section {
+  padding: 3rem;
+  color: #11b0c8;
+  display: flex;
+  justify-content: center;
 }
-#container { 
- 
+.section > h1 {
+  font-size: 2.5rem;
 }
-.item a{
-    text-decoration: none;
-    color: rgb(139, 160, 187);
-    position: center;
-  }
-<<<<<<< HEAD
+
+.search-input {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.site-search {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px 0 0 5px;
+  flex: 1;
+}
+
+.button.search {
+  border-radius: 0 5px 5px 0;
+  width: 3rem;
+  height: 3rem;
+  padding: 0.3rem;
+}
+
+select {
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+}
+
+select option {
+  font-size: 1em;
+}
+
+.filters {
+  display: flex;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1400px;
+
+}
+
+.section > h1 {
+  margin-top: 100px;
+}
+
   section{
     padding: 20px;
     align-items: center;
@@ -50,70 +85,32 @@
     display: inline-block;
     position: relative;
   }
-#imagen{ 
+ img{ 
    border: 2px solid #121212;
    object-position: center;
    width: 100%;
-   height: 280px;
-   object-fit: fill;
-  
+   height: 270px;
+   object-fit: fill; 
 }
-
-#btnmás{
-=======
->>>>>>> ff23c9d9cfa1e6004298055971b5852ed47ca7e4
-
-body {
-  background: url("2.jpg");
-  background-position: absolute;
-  background-size: contain;
-  padding: 20;
-  font-size: 28px;
-  font-family: "Lato", sans-serif;
-}
-.boxmenú li {
-  display: inline-flex;
-  justify-content: space-between;
-}
-.boxmenú li a:hover {
-  font-size: 40px;
-  text-decoration: none;
-  color: lime;
-  flex-direction: row;
-}
-.item a {
-  text-decoration: none;
-  color: rgb(139, 160, 187);
-  position: center;
-}
-
-.imagen {
-  border: 2px solid #000000;
-  object-position: center;
-  width: 100%;
-  height: 280px;
-  object-fit: fill;
-}
-
 .contenedor {
   display: grid;
-<<<<<<< HEAD
+
   grid-template-columns: repeat(4, 1fr);
   /* grid-template-columns: repeat (auto-fit, minmax (4, 1fr));*/
   grid-template-rows: repeat (3, 100px);
   grid-gap: 20px;
   color: white;
-=======
+
   height: 100px;
   grid-template-rows: 40px 1fr;
   grid-template-columns:1fr 1fr;
   grid-gap: 15px;
   justify-content: space-around;
->>>>>>> ff23c9d9cfa1e6004298055971b5852ed47ca7e4
+
 }
 
 #btnmás {
->>>>>>> 7166cd6e6665079d61de2c4e0e748462772774bb
+
   display: block;
   color: orange;
   border: 10px;
@@ -130,7 +127,6 @@ footer {
   padding: 10px;
   font-size: 15 px;
   text-align: center;
-<<<<<<< HEAD
   color: rgb(139, 160, 187);
 }
 
@@ -142,7 +138,6 @@ footer {
     font-size: 20px;
     width: 210px;
   }
-
   .tarjeta {
     height: 320px;
     background: rgb(139, 160, 187);
@@ -170,10 +165,5 @@ footer {
   .tarjeta img {
     width: 200px;
     padding: 10px 0px 0px 15px;
-  }
-}
-=======
-  color: rgb(139, 160, 187) }
-
- 
->>>>>>> ff23c9d9cfa1e6004298055971b5852ed47ca7e4
+    color: rgb(139, 160, 187);
+     }
