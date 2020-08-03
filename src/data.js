@@ -1,3 +1,4 @@
+import data from './data/rickandmorty/rickandmorty.js';
 export const ordenarPersonajes = (data, option) => {
   const orderAZ = data.sort(function (prev, next) {
     if (prev.name > next.name) {
@@ -8,14 +9,6 @@ export const ordenarPersonajes = (data, option) => {
     }
   });
 
-// estas funciones son de ejemplo
-
-//export const example = () => {
-  //return 'example';
-//};
-
-//export const anotherExample = () => {
-  //return 'OMG';
   if (option == "A-Z") {
     return orderAZ;
   }
