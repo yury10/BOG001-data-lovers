@@ -9,14 +9,6 @@ export const ordenarPersonajes = (data, option) => {
     }
   });
 
-// estas funciones son de ejemplo
-
-//export const example = () => {
-  //return 'example';
-//};
-
-//export const anotherExample = () => {
-  //return 'OMG';
   if (option == "A-Z") {
     return orderAZ;
   }
