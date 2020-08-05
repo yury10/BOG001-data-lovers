@@ -4,6 +4,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+.box {
+  border: 1px solid #333333;
+  width: 200px;
+  height: 100px;
+}
 
 header {
   object-position: center;
@@ -90,7 +95,7 @@ button{
   border-radius: 0 8px 8px 0;
   width: 5rem;
   height: 2rem;
-  padding: 0.3rem;
+  padding: 0;
 }
 input {
   border-radius: 8px 8px ;
@@ -102,7 +107,7 @@ select{
     border-radius: 8px 8px ;
     width: 20rem;
     height: 3rem;
-    padding: 0.7rem;
+    padding: 0.1rem;
   }
 .content-personajes{
   padding: 15rem;
