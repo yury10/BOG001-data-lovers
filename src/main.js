@@ -70,15 +70,22 @@ const filtrar =() =>{
     let nombre = personaje.name.toLowerCase();
     console.log(nombre)
     if (nombre.indexOf(texto) !== -1){
-      contenedorPersonaje.innerHTML += `<div class= "tarjeta">
-    <img src = "${personaje.image}" alt = "${personaje.name}"</div>
-    <ul class ="lista">
-    <li> Nombre: ${personaje.name}</li>
-    <li> Estado: ${personaje.status}</li>
-    <li> Genero: ${personaje.gender}</li>
-    <li> Especie: ${personaje.species}</li>
-    </ul>
-    </div>`;
+      contenedorPersonaje.innerHTML += `	<div class="wrap">
+      <div id="flip-container" class=tarjeta-wrap>  
+         <div id="card1" class="tarjeta"> 
+           <div class= "adelante card1">
+             <img src = "${personaje.image}" alt = "${personaje.name}"
+           </div>
+           <div class="atras"> <ul class ="lista">
+             <li> Nombre: ${personaje.name}</li>
+             <li> Estado: ${personaje.status}</li>
+             <li> Genero: ${personaje.gender}</li>
+             <li> Especie: ${personaje.species}</li>
+             </ul> 
+           </div> 
+         </div>
+       
+       </div>`;
 
     }
   }
