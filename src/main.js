@@ -3,25 +3,37 @@ import Especie from "./data.js";
 import {ordenarPersonajes} from "./data.js";
 
 let contenedorPersonaje = document.querySelector(".content-personajes")
+console.log(typeof(contenedorPersonaje))
+console.log(contenedorPersonaje)
 
 const mostrarPersonajes = (dato) => {
     dato.forEach((personaje) => {
-    contenedorPersonaje.innerHTML += `<div class= "tarjeta">
-    <img src = "${personaje.image}" alt = "${personaje.name}"</div>
-    <ul class ="lista">
-    <li> Nombre: ${personaje.name}</li>
-    <li> Estado: ${personaje.status}</li>
-    <li> Genero: ${personaje.gender}</li>
-    <li> Especie: ${personaje.species}</li>
-    </ul>
+    contenedorPersonaje.innerHTML += 
+   ` 	<div class="wrap">
+   <div id="flip-container" class=tarjeta-wrap>  
+      <div id="card1" class="tarjeta"> 
+        <div class= "adelante card1">
+          <img src = "${personaje.image}" alt = "${personaje.name}"
+        </div>
+        <div class="atras"> <ul class ="lista">
+          <li> Nombre: ${personaje.name}</li>
+          <li> Estado: ${personaje.status}</li>
+          <li> Genero: ${personaje.gender}</li>
+          <li> Especie: ${personaje.species}</li>
+          </ul> 
+        </div> 
+      </div>
+    
     </div>`;
   });
 }; 
+console.log(typeof(mostrarPersonajes))
+console.log(mostrarPersonajes)
 
 const selectFilter = document.getElementById("filter-input-species");
 
 const datosgeneral = data.results;
-mostrarPersonajes(datosgeneral.slice(0,10));
+mostrarPersonajes(datosgeneral.slice(0,12));
 
 let ordenAlfabetico = document.querySelector(".filter-input-order")
 
@@ -46,15 +58,7 @@ selectFilter.addEventListener("change", () => {
     deleted();
     mostrarPersonajes(datosfilter);
 })  
-/*menu
-function myFunction() {
-  var x = document.getElementById("navegador");
-  if (x.className === "menuNav") {
-    x.className += " responsive";
-  } else {
-    x.className = "menuNav";
-  }
-}*/
+
 
 const formulario = document.querySelector("#searchIn");
 const boton = document.querySelector("#boton");
